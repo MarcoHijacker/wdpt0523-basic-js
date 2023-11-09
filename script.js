@@ -2,6 +2,7 @@
 
 //? DATA TYPES
 //* Demo #1 - Stampa in console Infinity e NaN.
+// console.log(40/0);
 // console.log("Banana" / 5);
 
 //? Dato di tipo stringa
@@ -61,11 +62,11 @@
 // Divisione 
 // console.log(40 / 5);
 // Modulo
-// console.log(55 % 7); // Risultato? 6
+// console.log(55 % 7); // Risultato: 6
 // Es. Modulo
-// console.log(300 % 400); // Caso ambiguo...
+// console.log(300 % 400); // Risultato: 300
 // Un'espressione algebrica
-// console.log((5 + 4 * 2) + 6); // Risultato? 19 
+// console.log((5 + 4 * 2) + 6); // Risultato: 19 
 
 //? PEMDAS
 // Vedasi immagine PEMDAS nella cartella images!
@@ -89,7 +90,7 @@
 //? Operatori logici
 //* Demo #7a - Salva una condizione in una variabile. Che tipo di dato contiene?
 // let condition = 50 > 10;
-// console.log(condition); // Un booleano...
+// console.log(condition); // Un booleano... true
 
 //? Operatori di Uguaglianza/Disuguaglianza (==, ===, !=, !==)
 //* Demo #7b - Usa gli operatori di:
@@ -114,14 +115,16 @@
 //? Operatore NOT (!)
 //* Demo #8a - Inverti l'esito di una condizione grazie all'operatore NOT!
 // let myNum = 23;
-// console.log(!false);
+// console.log(!(16 > 8)); // false
 
 //? Operatore AND (&&)
 //* Demo #8b - Valuta 2 condizioni in AND all'interno di un console.log().
+// console.log((5 < 3) && (10 > 4));
 // console.log((5 < 3) && ((10 > 4) && (5 > 2)));
 
 //? Operatore OR (||)
 //* Demo #8c - Valuta 2 condizioni in OR all'interno di un console.log().
+// console.log((5 > 3) || (10 > 20)); // true
 // console.log((5 > 3) || (10 > 20) || (56 < 23)); // true
 
 //? EXTRA: Valuta l'esito della seguente condizione in AND, OR.
